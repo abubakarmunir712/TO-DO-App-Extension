@@ -1,0 +1,13 @@
+{
+    "manifest_version":3,
+    "name": "TO-DO App Extension",
+    "version":"1.0.0",
+    "description":"A simple todo list focused on privacy where data never leaves your browser",
+    "icons":{
+        "16":"icon.png"
+    },
+    "action":{
+        "default_popup": "index.html"
+    },
+    "permissions":["storage"]
+}
