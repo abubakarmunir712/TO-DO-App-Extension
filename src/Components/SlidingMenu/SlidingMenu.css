@@ -1,0 +1,34 @@
+.menu-container{
+    position: absolute;
+    height: 100%;
+    right: -160px;
+    top: 0;
+    background-color: #1E1E1E;
+    padding: 10px;
+    border: 1px solid #292929;
+    transition: right 0.5s ease-in;
+}
+
+.navbar-menu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.navbar-menu li {
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.navbar span{
+    font-size: 1.6em;
+    align-self: flex-end;
+    margin-right:5px ;
+}
+
+.menu-container.open{
+    right: 0;
+}

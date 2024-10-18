@@ -11,4 +11,10 @@ body{
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   background-color: #121212;
+  color: #E0E0E0;
+  overflow: hidden;
+}
+
+.pointer{
+  cursor: pointer;
 }
